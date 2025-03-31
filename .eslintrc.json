@@ -1,0 +1,3 @@
+{
+    "extends":["next/core-web-vitals", "next/typrscript", "standrd", "plugin:tailwindcss/recommended", "prettier"]
+}
