@@ -3,11 +3,7 @@ import Sort from "@/components/Sort";
 import { getFiles } from "@/lib/actions/file.actions";
 import { Models } from "node-appwrite";
 import Card from "@/components/Card";
-import {
-  convertFileSize,
-  getFileTypesParams,
-  getUsageSummary,
-} from "@/lib/utils";
+import { getFileTypesParams } from "@/lib/utils";
 // import sort from "@/components/Sort";
 
 // const usageSummary = getUsageSummary(totalSpace);
