@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Models } from "node-appwrite";
 import Thumbnail from "@/components/Thumbnail";

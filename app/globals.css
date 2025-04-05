@@ -13,9 +13,9 @@
 
   /* Remove scrollbar */
   .remove-scrollbar::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    border-radius: 0px;
+    width: 0;
+    height: 0;
+    border-radius: 0;
   }
 
   .remove-scrollbar::-webkit-scrollbar-track {
@@ -24,7 +24,7 @@
 
   .remove-scrollbar::-webkit-scrollbar-thumb {
     background: transparent;
-    border-radius: 0px;
+    border-radius: 0;
   }
 
   .remove-scrollbar::-webkit-scrollbar-thumb:hover {
@@ -140,7 +140,7 @@
     @apply flex items-center justify-center;
   }
 
-  /* =====  SHADCN OVERRIDES */
+
   .shad-no-focus {
     @apply outline-none ring-offset-transparent focus:ring-transparent focus:ring-offset-0 focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 !important;
   }
